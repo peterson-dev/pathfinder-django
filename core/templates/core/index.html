@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pathfinder</title>
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    
 </head>
 
-<body class="sans-serif">
-    <main class="mw9 center">
+<body>
+    <main>
     <h1>Pathfinder</h1>
     
-    <form action="" method="POST" enctype="multipart/form-data" class="mv3" id="pathfinder-form">
+    <form action="" method="POST" enctype="multipart/form-data" class="" id="pathfinder-form">
         {% csrf_token %}
         {{ form.as_p }}
     
         <button type="submit">Generate map</button>
     </form>
     
-    <div class="mw-100" id="map"></div>
+    {% if image_url %}
+    <img src="{{ image_url }}">
+    {% endif %}
+    <!-- <div class="mw-100" id="map"></div> -->
     </main>
     
 </body>

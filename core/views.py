@@ -34,4 +34,3 @@ def index_view(request):
         "form": form,
         "image_url": image_data_url
     })
-    
