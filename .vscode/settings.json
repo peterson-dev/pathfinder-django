@@ -1,0 +1,17 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#d1e9e7",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#bb7ec1",
+        "activityBarBadge.foreground": "#15202b",
+        "titleBar.activeBackground": "#afd8d5",
+        "titleBar.inactiveBackground": "#afd8d599",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveForeground": "#15202b99",
+        "statusBar.background": "#afd8d5",
+        "statusBarItem.hoverBackground": "#8dc7c3",
+        "statusBar.foreground": "#15202b"
+    },
+    "python.pythonPath": "/Users/dpeterson/.local/share/virtualenvs/pathfinder-django-RjAkT34s/bin/python"
+}
