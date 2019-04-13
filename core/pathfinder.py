@@ -120,7 +120,8 @@ class PathFinder:
     def navigate(self):
         """
         Compares the north, south, and straight locations to the current
-        location and returns the greediest one with minimal change
+        location and returns the greediest one with minimal change. If there is a tie then
+        the choice function is called to randomize the output
         """
         current = self.current_location[0]
         north = self.get_north_location()

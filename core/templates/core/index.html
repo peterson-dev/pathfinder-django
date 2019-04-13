@@ -47,7 +47,7 @@
                 const elevationData = event.target.result
                 callApiWithElevationData(elevationData).then(function (responseData) {
                     const dataURL = responseData.data_url
-                    map.innerHTML = `<img id="animate" style="max-width: 64em" src="${dataURL}">`
+                    map.innerHTML = `<img id="animate" style="max-width: 70em; min-width: 40em" src="${dataURL}">`
                 })
             })
             reader.readAsText(file)
