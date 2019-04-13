@@ -10,7 +10,7 @@ This small web app allows you to upload any text file (i.e. `.txt`, `.asc`) cont
 - [Pillow](https://pillow.readthedocs.io/en/3.0.x/index.html) - A Python library to create images
 
 ## Test it out
-- Navigate to the website [insert heroku link]
+- Navigate to the [website](https://greedy-pathfinder.herokuapp.com/)
 - Download the test data in the project directory `/sample-data/rocky-mountain-south.asc`
 - "Choose" file in the UI and select the sample file
 - Click "Generate map" 
