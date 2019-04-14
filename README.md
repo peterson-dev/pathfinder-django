@@ -11,7 +11,7 @@ This small web app allows you to upload any text file (i.e. `.txt`, `.asc`) cont
 
 ## Test it out
 - Navigate to the [website](https://greedy-pathfinder.herokuapp.com/)
-- Download the test data in the project directory `/sample-data/rocky-mountain-south.asc`
+- Download the test data <a href="/sample-data/rocky-mountain-south.asc" download>here</a>
 - "Choose" file in the UI and select the sample file
 - Click "Generate map" 
 - Behold the algorithmic glory
