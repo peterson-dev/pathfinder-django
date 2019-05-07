@@ -2,12 +2,12 @@
 
 ## Description
 
-This small web app allows you to upload any text file (i.e. `.txt`, `.asc`) containing topographic (land elevation) data, which generates an elevation map as a `.png` file, and charts every optimal path from left to right. These lines are drawn in purple. The green line highlights the path with the 'least' amount of elevation change. The idea for this project originated from a lab I did in school called [Mountain Paths](MountainPaths.pdf), which was adapted from [this project](http://nifty.stanford.edu/2016/franke-mountain-paths/). The concepts utilize a "greedy" algorithm that follows the problem solving heuristic of making the locally optimal choice at each stage with the intent of finding a global optimum, i.e. the green line.  
+This web app allows you to upload a text file (i.e. `.txt`, `.asc`) containing topographic data, generate an elevation map as a `.png` file, and chart optimal paths across. Each optimal path will be drawn in purple. A green line is drawn highlighting the path with the 'least' amount of elevation change. This project is an extension to a lab assignement called [Mountain Paths](MountainPaths.pdf), which was adapted from [this project](http://nifty.stanford.edu/2016/franke-mountain-paths/). The concepts utilize a "greedy" algorithm that follows the problem solving heuristic of making the locally optimal choice at each stage with the intent of finding a global optimum, i.e. the green line.  
 
 ## Built With
-- [Django](https://www.djangoproject.com/) - The web framework
+- [Django](https://www.djangoproject.com/) - Web framework
 - Python and Javascript
-- [Pillow](https://pillow.readthedocs.io/en/3.0.x/index.html) - A Python library to create images
+- [Pillow](https://pillow.readthedocs.io/en/3.0.x/index.html) - Python library to create images
 
 ## Test it out
 - Navigate to the [website](https://greedy-pathfinder.herokuapp.com/)
