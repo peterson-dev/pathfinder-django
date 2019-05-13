@@ -24,5 +24,5 @@ To try out other data sets, you can go to [the NOAA Grid Extract tool](http://ma
 - Upload the file in the same way as above.  
 
 ## Acknowledgements
-* [Fan Huang](https://github.com/fanh33)
-* [Clinton Dreisbach](https://github.com/cndreisbach)
+* [Fan](https://github.com/fanh33)
+* [Clint](https://github.com/cndreisbach)
