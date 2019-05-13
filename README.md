@@ -7,7 +7,7 @@ This web app allows you to upload a text file (i.e. `.txt`, `.asc`) containing t
 ## Built With
 - [Django](https://www.djangoproject.com/) - Web framework
 - Python and Javascript
-- [Pillow](https://pillow.readthedocs.io/en/3.0.x/index.html) - Python library to create images
+- [Pillow](https://pillow.readthedocs.io/en/3.0.x/index.html) - Python imaging library
 
 ## Test it out
 - Navigate to the [website](https://greedy-pathfinder.herokuapp.com/)
