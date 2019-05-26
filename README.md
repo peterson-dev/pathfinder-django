@@ -2,7 +2,7 @@
 
 ## Description
 
-This web app allows you to upload a text file (i.e. `.txt`, `.asc`) containing topographic data, generate an elevation map as a `.png` file, and chart optimal paths across. Each optimal path will be drawn in purple. A green line is drawn highlighting the path with the 'least' amount of elevation change. This project is an extension to a lab assignement called [Mountain Paths](MountainPaths.pdf), which was adapted from [this project](http://nifty.stanford.edu/2016/franke-mountain-paths/). The concepts utilize a "greedy" algorithm that follows the problem solving heuristic of making the locally optimal choice at each stage with the intent of finding a global optimum, i.e. the green line.  
+Pathfinder allows you to upload a text file (i.e. `.txt`, `.asc`) containing topographic data, generate an elevation map as a `.png` file, and chart optimal paths across. Each optimal path will be drawn in purple. A green line is drawn highlighting the path with the 'least' amount of elevation change. This project is an extension to a lab assignement called [Mountain Paths](MountainPaths.pdf), which was adapted from [this project](http://nifty.stanford.edu/2016/franke-mountain-paths/). The concepts utilize a "greedy" algorithm that follows the problem solving heuristic of making the locally optimal choice at each stage with the intent of finding a global optimum, i.e. the green line.  
 
 ## Built With
 - [Django](https://www.djangoproject.com/) - Web framework
